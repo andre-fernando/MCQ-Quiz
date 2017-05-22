@@ -1,0 +1,49 @@
+﻿<Page x:Class="MCQ_Quiz.AddQuestionPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MCQ_Quiz"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="600"
+      Title="AddQuextionPage">
+
+    <Grid Background="LightGray" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="tbQ" Text="Question :" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" />
+        <TextBox Name="tboxQ" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="90,0,0,0" Height="30" Width="480" />
+
+        <TextBlock Name="tbA" Text="Option A :" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" />
+        <TextBox Name="tboxA" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="90,0,0,0" Height="30" Width="400" />
+
+        <TextBlock Name="tbB" Text="Option B :" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" />
+        <TextBox Name="tboxB" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="90,0,0,0" Height="30" Width="400" />
+
+        <TextBlock Name="tbC" Text="Option C :" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" />
+        <TextBox Name="tboxC" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="90,0,0,0" Height="30" Width="400" />
+
+        <TextBlock Name="tbD" Text="Option D :" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" />
+        <TextBox Name="tboxD" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="90,0,0,0" Height="30" Width="400" />
+
+        <TextBlock Name="tbS" Text="Solution :" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" />
+        <TextBox Name="tboxS" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="90,0,0,0" Height="30" Width="400" />
+
+        <StackPanel Grid.Row="6" Orientation="Horizontal">
+        <Button Name="btnAdd" Content="Add" Grid.Row="6" Height="25" Width="50" HorizontalAlignment="Left" Margin="10,0,0,0" Click="btnAdd_Click"/>
+        <Button Name="btnClear" Content="Clear" Grid.Row="6" Height="25" Width="50" HorizontalAlignment="Left" Margin="10,0,0,0" Click="btnClear_Click"/>
+        <Button Name="btnEdit" Content="Edit" Grid.Row="6" Height="25" Width="50" HorizontalAlignment="Left" Margin="10,0,0,0" Click="btnEdit_Click"/>
+        <Button Name="btnFile" Content="Add from file" Grid.Row="6" Height="25" Width="Auto" Padding="5,0,5,0" HorizontalAlignment="Left" Margin="10,0,0,0" Click="btnFile_Click"/>
+        <Button Name="btnSaveFile" Content="Save to File" Grid.Row="6" Height="25" Width="Auto" Padding="5,0,5,0" HorizontalAlignment="Left" Margin="10,0,0,0" Click="btnSaveFile_Click"/>
+        <Button Name="btnHelp" Content="Help" Grid.Row="6" Height="25" Width="Auto" Padding="5,0,5,0" HorizontalAlignment="Left" Margin="10,0,0,0" Click="btnHelp_Click" />
+        <Button Name="btnDone" Content="Done" Grid.Row="6" Height="25" Width="50" HorizontalAlignment="Left" Margin="130,0,0,0" Click="btnDone_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

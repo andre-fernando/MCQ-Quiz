@@ -1,0 +1,46 @@
+﻿<Page x:Class="MCQ_Quiz.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MCQ_Quiz"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="600"
+      Title="MainPage">
+
+    <Grid Background="LightGray">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Name="Question"  Height="Auto" Width="Auto" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        
+        <RadioButton Name="R1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="1" Checked="R1_Checked"  />
+        <TextBlock Name="Choice1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0" Height="Auto" Width="Auto" Grid.Row="1"/>
+
+        <RadioButton Name="R2" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="2" Checked="R2_Checked" />
+        <TextBlock Name="Choice2" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0" Height="Auto" Width="Auto" Grid.Row="2"/>
+
+        <RadioButton Name="R3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="3" Checked="R3_Checked" />
+        <TextBlock Name="Choice3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0" Height="Auto" Width="Auto" Grid.Row="3"/>
+
+        <RadioButton Name="R4" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="4" Checked="R4_Checked" />
+        <TextBlock Name="Choice4" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0" Height="Auto" Width="Auto" Grid.Row="4"/>
+
+        <TextBlock Name="Answer" VerticalAlignment="Center" HorizontalAlignment="Center" Height="Auto" Width="Auto" Grid.Row="5"/>
+
+        <Button Name="btnStart" Content="Start" Grid.Row="6" Height="25" Width="50" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0" IsEnabled="True" Click="btnStart_Click"/>
+        <Button Name="btnSubmit" Content="Submit" Grid.Row="6" Click="btnSubmit_Click" Height="25" Width="50" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="90,0,0,0" IsEnabled="False"/>
+        <Button Name="btnNext" Content="Next" Grid.Row="6" Click="btnNext_Click" Height="25" Width="50" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="160,0,0,0" IsEnabled="False"/>
+        <Button Name="btnAddQ" Content="Add Questions" Grid.Row="6" Height="25" Width="Auto" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="230,0,0,0" Padding="5,0,5,0" Click="btnAddQ_Click"/>
+        <TextBlock Name="textStatus" Grid.Row="6" Height="25" Width="auto" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="330,7,0,0"/>
+        <Button Name="btnExit" Content="Exit" Grid.Row="6" Click="btnExit_Click" Height="25" Width="50" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0" IsEnabled="True"/>
+    </Grid>
+</Page>

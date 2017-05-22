@@ -1,0 +1,23 @@
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\bin\Debug\MCQ Quiz.exe.config
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ Quiz.csprojResolveAssemblyReference.cache
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MainWindow.g.cs
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\App.g.cs
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ Quiz_MarkupCompile.cache
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ Quiz_MarkupCompile.lref
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\bin\Debug\MCQ Quiz.exe
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\bin\Debug\MCQ Quiz.pdb
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MainWindow.baml
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ Quiz.g.resources
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ_Quiz.Properties.Resources.resources
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ Quiz.csproj.GenerateResource.Cache
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ Quiz.exe
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MCQ Quiz.pdb
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\Help.g.cs
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\Help.baml
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MainPage.g.cs
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\MainPage.baml
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\AddQuestionPage.g.cs
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\AddQuestionPage.baml
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\EditQuestionPage.g.cs
+E:\Coding\C#\My Projects\MCQ Quiz\MCQ Quiz\obj\Debug\EditQuestionPage.baml
